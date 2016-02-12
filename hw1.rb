@@ -1,13 +1,18 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
+  c = (a + b)**2
 end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
+  
+  b = a.sort.map {|i| i + 1}
+
 end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
+  name = first_name + " " + last_name
 end
 
 def blockin_time(a)
